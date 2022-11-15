@@ -433,11 +433,12 @@ button {
     color: #000000;
     margin-bottom: 17px;
 }
-.nikolai__photo img {
+.nikolai__photo {
+    text-align: center;
+}
+.nikolai__photo-1 {
     border-radius: 120px;
-    align-items: center;
     margin-bottom: 17px;
-    margin-left: 490px;
 }
 .nikolai__subtext {
     font-family: 'Open Sans', sans-serif;
@@ -457,6 +458,34 @@ button {
     text-align: center;
     margin-bottom: 26px;
 }
-.nikolai svg {
-    margin-left: 535px;
+.nikolai__svg {
+    text-align: center;
+}
+.gallery {
+    padding: 100px 0;
+}
+.gallery__title {
+    font-family: 'Tinos', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.gallery__title span {
+    color: #D67E34;
+}
+.gallery__content {
+    display: flex;
+    justify-content: center;
+}
+.gallery__left {
+    margin-right: 20px;
+}
+.gallery__down,
+ .gallery__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
