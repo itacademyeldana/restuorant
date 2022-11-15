@@ -484,8 +484,28 @@ button {
     margin-right: 20px;
 }
 .gallery__down,
- .gallery__up {
+.gallery__up {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+}
+.cook {
+    padding-bottom: 100px;
+}
+.cook__title {
+    font-family: 'Tinos', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 107px;
+}
+.cook__title span {
+    color: #D67E34;
+}
+.cook__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
 }
